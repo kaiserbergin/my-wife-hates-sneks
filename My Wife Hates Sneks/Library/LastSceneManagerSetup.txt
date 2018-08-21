@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Tests/Oculus Touch Sneks/Oculus Touch Sneks.unity
+  isLoaded: 1
+  isActive: 1
