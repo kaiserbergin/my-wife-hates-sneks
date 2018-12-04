@@ -149,7 +149,7 @@ public class OvrAvatarMaterialManager : MonoBehaviour
                 LocalAvatarConfig.ComponentMaterialProperties.Length,
                  localProps.Textures[0].format,
                 true,
-                false
+                QualitySettings.activeColorSpace == ColorSpace.Gamma ? false : true
             ) { filterMode = FilterMode.Trilinear };
 
             TextureArrays[i].Textures 
