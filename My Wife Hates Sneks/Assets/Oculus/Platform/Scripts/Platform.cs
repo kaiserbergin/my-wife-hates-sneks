@@ -1058,6 +1058,10 @@ namespace Oculus.Platform
 
   }
 
+  public static partial class CloudStorage2
+  {
+  }
+
   public static partial class Entitlements
   {
     /// Returns whether the current user is entitled to the current app.
